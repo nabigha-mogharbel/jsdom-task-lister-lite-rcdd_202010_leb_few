@@ -1,5 +1,5 @@
-let tasks==document.getElementById('tasks');
-let input=
+let tasks=document.getElementById('tasks');
+let input=document.getElementById('tasks');
 document.addEventListener("DOMContentLoaded", () => {
   
   
