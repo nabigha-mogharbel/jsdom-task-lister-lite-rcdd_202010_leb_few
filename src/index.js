@@ -8,4 +8,4 @@ form.addEventListener("submit", function(){
   taskList.push(submittedTask);
 });
 
-const addList
+function addList(a){let list="";
