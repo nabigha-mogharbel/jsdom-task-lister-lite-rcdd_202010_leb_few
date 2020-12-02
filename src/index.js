@@ -3,11 +3,12 @@ let input=document.getElementById('new-task-description');
 let form=document.getElementById('create-task-form');
 let tasklist=[];
 form.addEventListener("submit", function(e){
-  e.preventDefault(e);
+  
   let submittedTask="";
   submittedTask=input.value;
   taskList.push(submittedTask);
   addList(taskList);
+  e.preventDefault(e);
 });
 
 function addList(a){let list="";
