@@ -9,6 +9,6 @@ form.addEventListener("submit", function(){
 });
 
 function addList(a){let list="";
- for(let i=0; i<taskList.length; i++){
-   list+=
- }
+ for(let i=0; i<a.length; i++){
+   list+=`<li>`+a[i]+`</li>`;}
+   tasks.innerHTML=list;}
