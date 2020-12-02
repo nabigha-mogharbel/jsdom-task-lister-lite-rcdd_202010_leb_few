@@ -6,6 +6,7 @@ form.addEventListener("submit", function(){
   let submittedTask="";
   submittedTask=input.value;
   taskList.push(submittedTask);
+  addList(taskList);
 });
 
 function addList(a){let list="";
